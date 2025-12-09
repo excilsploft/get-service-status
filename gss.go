@@ -10,11 +10,11 @@ import (
 // const LogPrefix = "PyPi"
 // const StatusUrl = "https://status.python.org/api/v2/summary.json"
 
-const LogPrefix = "Github"
-const StatusUrl = "https://www.githubstatus.com/api/v2/summary.json"
+// const LogPrefix = "Github"
+// const StatusUrl = "https://www.githubstatus.com/api/v2/summary.json"
 
-// const LogPrefix = "NPM"
-// const StatusUrl = "https://status.npmjs.org/api/v2/summary.json"
+const LogPrefix = "NPM"
+const StatusUrl = "https://status.npmjs.org/api/v2/summary.json"
 
 type Summary struct {
 	Status `json:"status"`
